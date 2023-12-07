@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blueish:rgb(68, 95, 161);
+    --reddish:red;
+    --big-width:200px;
+    --small-width:100px;
+    --pinkish:pink;
+}
+body{
+    text-rendering: optimizeSpeed;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+   display: block;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:pink;
+    border-radius: 50%;
+}
+/* html{
+    overflow-x: hidden;
+} */
+div{
+    width: 200px;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: red;
+}
+div::-webkit-scrollbar{
+    display:block;
+}
+/* div::-webkit-scrollbar-thumb{
+    background-color: blue;
+} */
+/* div{
+    width: var(--big-width);
+    height: var(--big-width);
+    background-color: var(--reddish);
+}
+section{
+    height: var(--small-width);
+    width: var(--small-width);
+    background-color: var(--blueish);
+    position: relative;
+    left: 40px;
+}
+main{
+    height: var(--big-width);
+    width: var(--big-width);
+    background-color: var(--pinkish);
+} */
